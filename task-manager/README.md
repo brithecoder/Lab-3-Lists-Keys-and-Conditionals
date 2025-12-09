@@ -10,9 +10,10 @@ I insured unique ID by simulating an ID coming from the database.
 
 ### What considerations did you make when implementing the filtering functionality?
 
-I made sure to include results from both filter properties so If both were applied the user would get results according to both filters.
+I made sure to include results from both filter properties so if both were applied the user would get results according to all filters applied.
 
 ### How did you handle state updates for task status changes?
-I passed a getNextStatus function that would circulate through the status options when the update status button is pushed.
+I passed a getNextStatus function that would circulate through the status options when the update status button is clicked.
 
 ### What challenges did you face when implementing conditional rendering?
+I had to make sure I passed the filtered list into task list so if any filters were applied the only task rendered were according to that. 
